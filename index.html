@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Random Survey Redirect</title>
+  <script>
+    // Define the list of survey URLs
+    const surveys = [
+      "https://forms.gle/3smT4JgejF1o7J439", // Narrative ad Study 1.1
+      "https://forms.gle/dne2Ra9UcrWFA2ZNA" // Non-narrative ad Study 1.2
+    ];
+
+    // Shuffle and redirect
+    window.onload = function () {
+      const randomIndex = Math.floor(Math.random() * surveys.length);
+      window.location.href = surveys[randomIndex];
+    };
+  </script>
+</head>
+<body>
+  <p>Redirecting you to the survey...</p>
+</body>
+</html>
