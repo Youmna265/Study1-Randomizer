@@ -6,10 +6,10 @@
   <script>
     // Define the list of survey URLs
     const surveys = [
-      "https://docs.google.com/forms/d/1iXZOzlSk1Oz8p6fykppulhWLXZcz_z3PuyJXDaf7gig/edit", // Study 2 - Pretest 2.1 (Adv x Linear)
-      "https://docs.google.com/forms/d/1CpSBlaiZzsoUdwItvHv0yj9FNdMdkxFY6Trnzn8jGqo/edit" // Study 2 - Pretest 2.2 (Adv x Non-linear)
-      "https://docs.google.com/forms/d/1JvZexIp4ZwHCzZya7rUSIypl1Aopn024_7c2Es7JOyw/edit", // Study 2 - Pretest 2.3 (Transf x Linear)
-      "https://docs.google.com/forms/d/1cHwbxNXL3jgyyQbpwV0J1X-_96IbwGO4sgn4LUJt4Sw/edit" // Study 2 - Pretest 2.4 (Transf x Non-linear)
+      "https://forms.gle/6BJUWvJp77a9eZQ89", // Study 2 - Pretest  2.1 adv.xlinear
+      "https://forms.gle/HXiZ5fUqLZNTUcWL6" // Study 2 - Pretest  2.2 adv.xnon-linear
+      "https://forms.gle/TBL8NcKoU4GAQdSZ9", // Study 2 - Pretest  2.3 transf.xlinear
+      "https://forms.gle/R55q96rPoVLUJ1P27" // Study 2 - Pretest  2.4 transf.xnon-linear
     ];
 
     // Shuffle and redirect
